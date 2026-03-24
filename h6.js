@@ -12,8 +12,7 @@ var http = require("http");
 var url = require("url");
 var fs = require("fs");
 
-var link = "http://www.google.com/exam.txt?c1=Hello&c2=FSD2 T1 Test&c3=#Allthebest";
-
+var link = "http://www.google.com/exam.txt?c1=Hello&c2=FSD2 T1 Test&c3=%23Allthebest";
 
 var data = url.parse(link, true);
 
